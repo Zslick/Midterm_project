@@ -40,14 +40,14 @@ class ProfileScreen extends StatelessWidget {
               leading: Icon(Icons.settings, color: Colors.black),
               title: Text('Settings'),
               onTap: () {
-                // Add functionality for settings here
+               
               },
             ),
             ListTile(
               leading: Icon(Icons.logout, color: Colors.black),
               title: Text('Logout'),
               onTap: () {
-                // Navigate back to the login screen
+                
                 Navigator.pushReplacementNamed(context, '/login');
               },
             ),
