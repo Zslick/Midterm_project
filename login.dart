@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
-  final Color sageGreen = Color(0xFF9CAF88); // Using the same color as the ProfileScreen
+  final Color sageGreen = Color(0xFF9CAF88); 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Login'),
-        backgroundColor: sageGreen, // Same AppBar color as ProfileScreen
+        backgroundColor: sageGreen, 
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 60,
-              backgroundImage: AssetImage('assets/user_avatar.png'), // Same avatar style as ProfileScreen
+              backgroundImage: AssetImage('assets/user_avatar.png'), 
             ),
             SizedBox(height: 20),
             Text(
