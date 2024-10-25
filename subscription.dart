@@ -21,15 +21,15 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomeScreen(),
         '/profile': (context) => ProfileScreen(),
-        '/subscription': (context) => SubscriptionScreen(), // New route for subscription screen
+        '/subscription': (context) => SubscriptionScreen(), 
       },
     );
   }
 }
 
-// New SubscriptionScreen class
+
 class SubscriptionScreen extends StatelessWidget {
-  // Hardcoded payment and expiration details for now
+ 
   final String paymentDate = "October 1, 2024";
   final String expirationDate = "November 1, 2024";
 
