@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:luna/home.dart'; // Assuming you have this
-import 'package:luna/profile.dart'; // Assuming you have this
-import 'package:luna/login.dart'; // Import the LoginScreen
+import 'package:luna/home.dart'; 
+import 'package:luna/profile.dart'; 
+import 'package:luna/login.dart'; 
 
 void main() {
   runApp(MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           headlineMedium: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
       ),
-      initialRoute: '/login', // Set the initial route to the login screen
+      initialRoute: '/login', 
       routes: {
         '/login': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
